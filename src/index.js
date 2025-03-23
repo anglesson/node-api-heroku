@@ -1,7 +1,7 @@
 // Create a server with express and listen on port 3000
 import express from 'express';
 const app = express();
-const port = 3000;
+const port = 80;
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
